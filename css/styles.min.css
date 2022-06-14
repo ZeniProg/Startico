@@ -342,9 +342,33 @@ template {
 }
 
 @font-face {
-  src: url("../fonts/Atenta-Regular.woff2") format("woff2");
-  font-family: "Atenta";
+  src: url("../fonts/SpaceGrotesk.woff2") format("woff2");
+  font-family: "Space-Grotesk";
   font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url("../fonts/SpaceGrotesk.woff2") format("woff2");
+  font-family: "Space-Grotesk";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url("../fonts/Fraunces.woff2") format("woff2");
+  font-family: "Fraunces";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url("../fonts/Fraunces.woff2") format("woff2");
+  font-family: "Fraunces";
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
@@ -364,10 +388,10 @@ html {
 
 body {
   margin: 0;
-  font-family: "Atenta", sans-serif;
+  font-family: "Space-Grotesk", sans-serif;
   font-weight: 400;
-  color: #000000;
-  background-color: #ffffff;
+  color: #49616E;
+  background-color: white;
 }
 
 .site-container {
@@ -377,7 +401,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1230px;
+  max-width: 1310px;
   padding: 0 15px;
 }
 
@@ -442,7 +466,7 @@ img {
 .logo__img {
   width: 90px;
   height: 90px;
-  fill: #ffffff;
+  fill: white;
 }
 
 .menu__burger {
@@ -459,7 +483,7 @@ img {
 
 .menu__link {
   position: relative;
-  color: #ffffff;
+  color: white;
   font-size: 18px;
 }
 
